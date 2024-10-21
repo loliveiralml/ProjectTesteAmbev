@@ -4,7 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress:run:headed": "cypress run --headed",
+    "cypress:run:headless": "cypress run --headless",
+    "e2e:API": "cypress run --spec 'cypress/e2e/API/*.cy.js'",
+    "e2e:WEB": "cypress run --spec 'cypress/e2e/Web/*.cy.js'"
   },
   "keywords": [],
   "author": "",

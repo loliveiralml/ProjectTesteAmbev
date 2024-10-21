@@ -8,10 +8,48 @@ Passso a passo Inicialização :
 
 1- Criar uma pasta para o projeto .
 2- Clonar o projeto a partir desta branch.
-3- Executar o comando "npm init -y" criará o package.json
-4- Executar o comando "npm install cypress" adiciona  a sessão de dependencias do projeto.
-5- Executar o comando "npx cypress install" se ocorrer erro executar o comando "npx cypress install --force" caso já exista a instalação será feito um refresh.
-6- Executar o comando "npx cypress open " - Para criar os arquivos iniciais.
+3- Executar o comando "npm install cypress" adiciona  a sessão de dependencias do projeto.
+4- Executar o comando "npx cypress install" se ocorrer erro executar o comando "npx cypress install --force" caso já exista a instalação será feito um refresh.
+5- Executar o comando "npx cypress open " - Para execução iniciail.
+
+
+📢 A aplicação o qual os teste rodam , é viva e passiva de alterações , entre elas as de acesso os qual neste projeto estão configuradas nas pastas "Elementos" para API e fixture para Web.
+
+No caso de algum destes serem apagados , basta inserir novamente via aplicação:
+
+☕️ curl -X 'POST' \
+  'https://serverest.dev/usuarios' \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "nome": "xxx",
+  "email": "xx@qa.com.br",
+  "password": "teste",
+  "administrador": "false"
+}'
+
+
+🔥 Payload´s :
+
+Web : 
+
+{
+  "nome": "ze delivery",
+  "email": "zeno@qa.com.br",
+  "password": "teste",
+  "administrador": "false"
+}
+
+API : 
+
+{
+      "nome": "bololtrano",
+      "email": "bololtrano@qa.com.br",
+      "password": "teste",
+      "administrador": "false"
+      
+    }
+
 
 📋 Pré-requisitos
 Ter o Cypress intalado na maquina local.

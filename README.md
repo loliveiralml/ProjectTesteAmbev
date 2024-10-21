@@ -7,10 +7,11 @@ Essas instruções permitirão que você obtenha uma cópia do projeto em opera�
 Passso a passo Inicialização : 
 
 1- Criar uma pasta para o projeto .
-2- Executar o comando "npm init -y" criará o package.json
-3- Executar o comando "npm install cypress" adiciona  a sessão de dependencias do projeto.
-4- Executar o comando "npx cypress install" se ocorrer erro executar o comando "npx cypress install --force" caso já exista a instalação será feito um refresh.
-5- Executar o comando "npx cypress open " - Para criar os arquivos iniciais.
+2- Clonar o projeto a partir desta branch.
+3- Executar o comando "npm init -y" criará o package.json
+4- Executar o comando "npm install cypress" adiciona  a sessão de dependencias do projeto.
+5- Executar o comando "npx cypress install" se ocorrer erro executar o comando "npx cypress install --force" caso já exista a instalação será feito um refresh.
+6- Executar o comando "npx cypress open " - Para criar os arquivos iniciais.
 
 📋 Pré-requisitos
 Ter o Cypress intalado na maquina local.
@@ -22,44 +23,28 @@ Para os testes de Web foi utilizado a pagina : https://front.serverest.dev.
 Para os teste de API foi utilizado : https://serverest.dev.
 
 
-⚙️ Executando os testes
-Explicar como executar os testes automatizados para este sistema.
+⚙️ Executando os testes :
+Os comando abaixo visam apoiar e facilitar a experiência da execução dos testes 
 
-🔩 Analise os testes de ponta a ponta
-Explique que eles verificam esses testes e porquê.
-
-Dar exemplos
-⌨️ E testes de estilo de codificação
-Explique que eles verificam esses testes e porquê.
-
-Dar exemplos
-📦 Implantação
-Adicione notas adicionais sobre como implantar isso em um sistema ativo
+ npm run e2e:WEB --> Executa apenas os testes relacionados ao FRONTEND.
+ npm run e2e:API --> Executa apenas os testes relacionados ao BACKEND.
+ npm run cypress:run --> Executa todos os testes somente no console Ex.(console do Visual Studio Code).
+ npm run cypress:run:headed Executa todos os testes somente em tela Ex.(Diretamente no Chrome).
 
 🛠️ Construído com
-Mencione as ferramentas que você usou para criar seu projeto
-
-Dropwizard - O framework web usado
-Maven - Gerente de Dependência
-ROME - Usada para gerar RSS
-🖇️ Colaborando
-Por favor, leia o COLABORACAO.md para obter detalhes sobre o nosso código de conduta e o processo para nos enviar pedidos de solicitação.
+Cypress - https://docs.cypress.io/guides/overview/why-cypress
+Java Script - https://www.javascript.com/
+NodeJS - https://nodejs.org/en
 
 📌 Versão
 Nós usamos SemVer para controle de versão. Para as versões disponíveis, observe as tags neste repositório.
 
 ✒️ Autores
-Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
-
-Um desenvolvedor - Trabalho Inicial - umdesenvolvedor
-Fulano De Tal - Documentação - fulanodetal
-Você também pode ver a lista de todos os colaboradores que participaram deste projeto.
+Desenvolvimento Leandro de Oliveira - Analista QA.
+Documentação Leandro de Oliveira - Analista QA.
 
 📄 Licença
-Este projeto está sob a licença (sua licença) - veja o arquivo LICENSE.md para detalhes.
+Este projeto é publico é tem como objetivo colaborar com aqueles que desejam avaliar,aprender ou mesmo tirar exemplos de partes do código.
 
 🎁 Expressões de gratidão
-Conte a outras pessoas sobre este projeto 📢;
-Convide alguém da equipe para uma cerveja 🍺;
-Um agradecimento publicamente 🫂;
-etc.
+Agradeço a oportunidade de estar realizando de forma colaborativa para os time envolvidos .

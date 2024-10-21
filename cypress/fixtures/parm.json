@@ -1,8 +1,9 @@
 {
   "uri": "https://front.serverest.dev/login",
   "urapi": "https://front.serverest.dev",
-  "name": "Jonh smith da silva",
-  "email": "bololtrano@qa.com.br",
+  "name": "ze delivery",
+  "email": "zeno@qa.com.br",
+  "_id": "edIz0Ud1z9uTc1YP",
   "password": "teste",
   "prodpesquisa":"Samsung 60 polegadas",
   "selectproduto":"Logitech MX Vertical"

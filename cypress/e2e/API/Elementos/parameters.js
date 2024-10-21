@@ -3,10 +3,10 @@ class basesParms {
  baseUrapi = 'https://serverest.dev/login'
  baseUri = 'https://serverest.dev'
 
- name = 'jonh smith da Silva'
+ name = 'bololtrano'
  email= 'bololtrano@qa.com.br'
  password= 'teste'
- _id= 'cVbUQsLaAtEnHQ4t'
+ _id= 'uwMZNQtpAvKr3iRs'
 
  erroremail= 'error@gmail.com'
  erropassword= 'teste22'

@@ -10,6 +10,7 @@
     "cypress:run:headed": "cypress run --headed",
     "cypress:run:headless": "cypress run --headless",
     "e2e:API": "cypress run --spec 'cypress/e2e/API/*.cy.js'",
+    "e2e:avulso": "cypress run --spec 'cypress/e2e/API/DeletarUsuarioApi.cy.js'",
     "e2e:WEB": "cypress run --spec 'cypress/e2e/Web/*.cy.js'"
   },
   "keywords": [],

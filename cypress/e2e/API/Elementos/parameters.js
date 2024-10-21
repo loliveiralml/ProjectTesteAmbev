@@ -3,12 +3,12 @@ class basesParms {
  baseUrapi = 'https://serverest.dev/login'
  baseUri = 'https://serverest.dev'
 
- name = 'Leandro de Oliveira'
- email= 'loliveiralml1@gmail.com'
- password= '123456'
- _id= 'lqxVL8DElGkvJsWv'
+ name = 'jonh smith da Silva'
+ email= 'bololtrano@qa.com.br'
+ password= 'teste'
+ _id= 'cVbUQsLaAtEnHQ4t'
 
- erroremail= 'loliveiralml1gmail.com'
- erropassword= '123455'
+ erroremail= 'error@gmail.com'
+ erropassword= 'teste22'
  
 } export  default basesParms;

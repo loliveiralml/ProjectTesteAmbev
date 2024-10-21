@@ -1,10 +1,10 @@
 class parmclientes {
 
-    nome = "Leandro de Oliveira>"
-    email = "loliveiralml2@gmail.com"
-    password = "123456"
+    nome = "clinton da Silva"
+    email = "clintotrano@qa.com.br"
+    password = "teste"
     administrador = "true"
-    _id = "mjrINJJMmerAf5ng"
+    _id = "SL6ns9nTZoSiwPKE"
     erropassword = '123455'
 
 }
